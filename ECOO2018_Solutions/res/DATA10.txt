@@ -1,0 +1,55 @@
+3 5
+E
+B
+E
+B
+E
+2 4
+B
+E
+E
+E
+3 5
+E
+B
+E
+B
+E
+2 4
+B
+E
+E
+E
+3 5
+E
+B
+E
+B
+E
+2 4
+B
+E
+E
+E
+3 5
+E
+B
+E
+B
+E
+2 4
+B
+E
+E
+E
+3 5
+E
+B
+E
+B
+E
+2 4
+B
+E
+E
+E
