@@ -88,7 +88,7 @@ Java will output errors automatically for many exceptions. However, there are al
 The most common exception packages (errors) and their locations are as follows:
 
 | **Exception Class** | **Handles/Throws an Error When** | **Base Class** |
-| -------------------- | --------------------------------- | ------------------- |
+| ------------------- | -------------------------------- | -------------- |
 | IOException | An error condition when there are input or output errors | java.io |
 | RuntimeException | The class that handles exceptions when a program is running | java.lang |
 | ArithmeticException | Errors when a program attempts to divide by 0 | java.lang |
@@ -103,7 +103,7 @@ Throwing an exception just means that the Java virtual machine will output the c
 For example, you could add the following to a main method that reads from a file:
 
 ```java
-public static void main (String args []) throws IOException {
+public static void main (String[] args) throws IOException {
 ```
 
 This header sets the method up to send error messages for input/output exceptions. 
