@@ -137,7 +137,7 @@ An optional clause can be added to this structure.  If there is some code that *
 
 ## Reading a File into an ArrayList
 
-If you are unsure of the number of items in a file you can use an **ArrayList** to load the file. A while loop can be used to test if the input is null (see below), and an element can be added to an ArrayList for each item retrieved from the file. (This is a good idea even if you have to parse the line after the file is read.) The following method will read an entire file into an ArrayList and return the ArrayList that is created..
+If you are unsure of the number of items in a file you can use an **ArrayList** to load the file. A while loop can be used to test if the input is null (see below), and an element can be added to an ArrayList for each item retrieved from the file. (This is a good idea even if you have to parse the line after the file is read.) The following method will read an entire file into an ArrayList and return the ArrayList that is created.
 
 ```java
 private ArrayList readFileContents(String filename) {
