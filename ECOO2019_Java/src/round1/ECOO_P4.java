@@ -1,13 +1,13 @@
-package ECOO;
+package round1;
 
 import java.io.*;
 import java.util.Arrays;
 
-public class ECOO2018P3 {
+public class ECOO_P4 {
 
 	public static void main(String[] args) throws IOException {
 		
-		BufferedReader fileIn = new BufferedReader(new FileReader("res/DATA30.txt"));
+		BufferedReader fileIn = new BufferedReader(new FileReader("res/DATA40.txt"));
 
 		//expect 10 runs of the program (not necessarily 10 lines!) in the file
 		for (int k = 0; k < 10; k++) {

@@ -1,4 +1,4 @@
-package ECOO;
+package round1;
 
 public class FibSquare {
 
