@@ -121,16 +121,16 @@ Thus the first step in the error control process in Java is to set up a structur
 ```java
 try {
     BufferedReader fileIn = new BufferedReader ( new FileReader(“res/DATA.txt”));
-	String myLine = fileIn.readLine();	
+    String myLine = fileIn.readLine();	
 }
 ```
 Once a command that is within a try block fails – it is said to throw an exception.  When the programmer handles the exception the programmer uses the **catch** command to divert the flow control to the block that follows the **try** command.  The type of exception is a parameter of the catch block.  In the following example **e** is the **IOException** error type.  It can be used in the  **catch**  block.
 
 ```java
 catch (IOException e) {
-	System.out.println("Input error!");
-	System.out.println("Exiting program.");
-	System.exit(1);
+    System.out.println("Input error!");
+    System.out.println("Exiting program.");
+    System.exit(1);
 }
 ```
 An optional clause can be added to this structure.  If there is some code that **must** be completed, this can be included in the finally clause.  The code in the **finally** clause will be executed at the end of the try clause, even if the command(s) in the try clause fails.  
