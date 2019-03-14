@@ -4,9 +4,9 @@ Sample File Reading program for ECOO contests
 fileIn = open("res/DATA30.txt", 'r')
 
 #expect 10 test cases; read the problem to understand how they should be formatted
-for k in range (0, 10):
+for testCase in range (0, 10):
     
-    print("Reading Test case #",k)
+    print("Reading Test case #",testCase)
     
     #demonstrating how to read different types of input from a file
     
