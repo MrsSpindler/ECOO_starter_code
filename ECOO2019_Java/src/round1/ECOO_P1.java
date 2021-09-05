@@ -9,7 +9,7 @@ public class ECOO_P1 {
 
         BufferedReader fileIn = new BufferedReader(new FileReader("res/DATA10.txt"));
 
-        // expect 10 runs of the program (not necessarily 10 lines!) in the file
+        // expect 10 runs of the program (not necessarily 10 lines!) in the file 
         for (int testCase = 0; testCase < 10; testCase++) {
 
             int integerInFile = Integer.parseInt(fileIn.readLine());
@@ -21,7 +21,7 @@ public class ECOO_P1 {
 
         }
 
-        fileIn.close(); // close the file.
+        fileIn.close(); // close the file
     }
 
 }
